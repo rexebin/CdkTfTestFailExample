@@ -47,8 +47,8 @@ public class IteratorStack: TerraformStack
         new AcmCertificateValidation(this, "validation", new AcmCertificateValidationConfig
         {
             CertificateArn = cert.Arn,
-            // ValidationRecordFqdns = Token.AsList(recordsIterator.PluckProperty("fqdn")) // test fails
-            ValidationRecordFqdns = [] // test passes
+            ValidationRecordFqdns = Token.AsList(recordsIterator.PluckProperty("fqdn")) // test fails
+            // ValidationRecordFqdns = [] // test passes
         });
 
     }

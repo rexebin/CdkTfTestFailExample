@@ -1,0 +1,11 @@
+{
+  "language": "csharp",
+  "app": "dotnet run --project IteratorStack.csproj",
+  "projectId": "1882e438-6662-4f01-bc10-6c390b5c3547",
+  "sendCrashReports": "true",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "context": {
+
+  }
+}
